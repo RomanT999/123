@@ -11,4 +11,4 @@ foreach ($posts as $post){
  <a href="<?= get_permalink() ?>"><?php echo get_the_title() ?></a>
 <?php
 }
-get_footer();
+// get_footer();
